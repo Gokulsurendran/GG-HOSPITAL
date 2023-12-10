@@ -1,0 +1,452 @@
+
+body{
+  overflow-x: hidden;
+  margin-left: 85px;
+  margin-right: 85px;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+.image img{
+  width: 100%;
+  padding-top: 15px;
+}
+  .text_overlap {
+    position: absolute;
+    top: 30%; 
+    color: #0c0c0c; 
+    left: 15%;
+  }
+  .text_overlap h1{
+    font-size: 60px;
+
+  }
+  .text_overlap button{
+    color: white;
+    background-color: rgb(114, 221, 162);
+    height: 40px;
+    right: 90%;
+    width: 210px;
+    border-radius: 10px;
+
+    border:none ;
+  }
+  .realform{
+    background-color:rgb(255, 255, 255);
+    border: none;
+    width: 72%;
+    left: 15%;
+    border-radius: 10px;
+    position: absolute;
+    top: 90%;
+  }
+  .booking{
+    padding: 20px;
+    padding-left: 50px;
+  }
+  .main_form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .form1{
+    flex: 1;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    flex-direction: row;
+    
+  
+  }
+
+  .form2{
+    flex: 1;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    flex-direction: row;
+   
+  }
+  .form1 input{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgb(140, 144, 140);
+  }
+  .form2 select{
+    width: 260px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: aliceblue;
+    border: 1px solid rgb(136, 139, 136);  }
+  .form2 button{
+    width: 255px;
+    height: 50px;
+    padding: 5px;
+    color:white;
+    margin-left: 7px;
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+  }
+ 
+  .main{
+    padding: 30px;
+  }
+  .main_form{
+    padding-left: 60px;
+  }
+ 
+  .department_head
+  {
+    padding-top: 200px;
+    display: flex;
+  }
+  .depheading{
+    flex: 35;
+    margin-left: 1%;
+  }
+  .arrow1{
+    flex: 1;
+    padding-right: 7px;
+  }
+  .arrow2{
+    flex: 1;
+  }
+
+  .depimage{
+    width: 330px;
+    height: 230px;
+  }
+  .department_image{
+    display: flex;
+    padding-right: 25px;
+  }
+  .department_image a{
+    color: rgb(72, 182, 162);
+  }
+  .image1{
+    flex: 3;
+  } 
+  .image2{
+    flex: 3;
+  }
+  .image3{
+    flex: 3;
+  }
+
+  .except_last{
+    margin-left:85px; 
+    margin-right:85px;
+  }
+  .section3{
+    background-color: #eaf2ff;
+    display: flex;
+    height: 375px;
+  }
+  .doctor{
+    flex: 1;
+  }
+  .doctor_content{
+    flex: 1;
+    align-items: center;
+    padding-top: 60px;
+  }
+  .doctor_content h2{
+    text-align: center;
+    padding-right: 150px;
+  }
+  .ellipseimage{
+    width: 20px;
+    height: 20px;
+    padding-top: 25px;
+    padding-left: 100px;
+   
+    /* flex: 1; */
+  }
+  .ellipsecontent{
+    padding-top: 11px;
+    padding-left: 10px;
+  }
+.doctor_content_ellipse{
+    display: flex;
+  }
+
+.ellipse{
+  flex: 1;
+}
+.content{
+  flex: 20;
+}
+.doctor{
+  position: relative;
+}
+.doctors_heading p{
+  color: rgb(108, 108, 104);
+
+}
+.doctorimage{
+  position: relative;
+}
+.designimage{
+  position: absolute;
+  height: 100%;
+
+}
+.doctor_list{
+  display: flex;
+}
+.doctor_list p{
+  color: #585353;
+}
+
+.doctorimage1{
+  flex: 1;
+  padding: 15px;
+  text-align: center;
+}
+.doctorimage2{
+  flex: 1;
+  padding: 15px;
+  text-align: center;
+}
+.doctorimage3{
+  flex: 1;
+  padding: 15px;
+  text-align: center;
+}
+.doctorimage4{
+  flex: 1;
+  padding: 15px;
+  text-align: center;
+}
+.doctors_heading{
+  text-align: center;
+}
+.doctor_button{
+  align-items: center;
+  margin-left: 480px;
+  padding: 10px;
+  color: white;
+  width: 130px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(55, 195, 167);
+}
+
+/* .arrow{
+  width: 5px;
+  height: 5px;
+} */
+.facilities
+{
+  padding-top: 200px;
+  display: flex;
+}
+.facility_head{
+  flex: 20;
+  margin-left: 450px;
+}
+.arrow1{
+  flex: 1;
+  padding-right: 7px;
+}
+.arrow2{
+  flex: 1;
+}
+
+.facimage{
+  width: 350px;
+  height: 250px;
+}
+.facility_image{
+  display: flex;
+  padding: 10px;
+}
+.imagef1{
+  flex: 3;
+}
+.imagef2{
+  flex: 3;
+}
+.imagef3{
+  flex: 3;
+}
+
+
+
+.interested_images{
+  position: absolute;
+  top: 530%;
+  left: 5%;
+  width: 90%;
+}
+
+.interested_heading{
+  display: flex;
+  align-items: center;
+}
+.interested
+{
+  /* padding-top: 200px; */
+  display: flex;
+}
+.interested_heading{
+  flex: 500;
+  margin-left: 450px;
+}
+.arrow1{
+  width: 2px;
+  margin-left: 100px;
+  padding-right: 7px;
+}
+.arrow2{
+  width: 5%;
+  
+}
+.interested h3{
+  font-family: 'Inter';
+  text-align: center;
+  
+}
+.interested_heading .fa-arrow-left{
+  margin-left: 30% ;
+  color: gray;
+}
+/* .interested_heading .fa-arrow-right{
+  margin-left: 40px ;
+} */
+.interested_images{
+  display: flex;
+  margin: 33px;
+  margin-right: 33px;
+ 
+}
+
+.intimg img{
+  width: 350px;
+  height: 220px;
+}
+.imagetext{
+  font-family: 'Inter';
+}
+.imagetext a{
+  color: #17C1A3;
+}
+.interested_image .image{
+  width: 350px;
+  margin-right: 35px;
+ 
+}
+.topsubscibe{
+  background-color: #17C1A3;
+}
+
+.subscribe{
+  position: absolute;
+  top: 120%;
+  width: 90%;
+}
+.subbox{
+  position: relative;
+}
+.subscribetext{
+  position: absolute;
+  top: 15%;
+}
+.subscribetext h1{
+  font-family: 'Inter';
+  margin-left: 40px;
+}
+.subbox img{
+  height: 250px;
+  width: 120%;
+}
+.inputfield{
+  position: absolute;
+  top: 35%;
+  left: 70%;
+ 
+}
+.inputfield input{
+  height: 30px;
+  width: 200px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.inputfield button{
+  background-color: #17C1A3;
+  width: 90px;
+  height: 36px;
+  font-family: 'Inter';
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.footer1{
+  display: flex;
+  top: 650%;
+  position: absolute;
+  width: 100%;
+  border-bottom:1px solid grey;
+}
+
+.footer1left{
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 380px;
+  height: 200px;
+}
+.footer1left img{
+  height: 50px;
+  width: 320px;
+}
+.footer1left p{
+  font-size: small;
+  word-spacing: 3px;
+  line-height: 25px;
+}
+.footer1right{
+  display: flex;
+  margin-left: 130px;
+}
+.legal{
+  margin-left: 50px;
+}
+.footer2{
+  position: absolute;
+  display: flex;
+  top: 690%;
+  width: 100%;
+  left: 7%;
+}
+.footer2 i{
+  margin-right: 10px;
+}
+.footer2 p{
+  margin-top: -5px;
+  line-height: 25px;
+}
+.fa-phone-alt{
+  margin-left: 50px;
+}
+.fa-envelope{
+  margin-left: 50px;
+}
+.footer2right{
+  margin-left: 30px;
+  margin-top: -20px;
+}
+.footer2right h3{
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.footer2right i{
+  margin-right: 30px;
+  margin-left: 30px;
+}

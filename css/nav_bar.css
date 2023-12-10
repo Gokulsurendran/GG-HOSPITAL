@@ -1,0 +1,38 @@
+
+.container{
+    display: flex;
+}
+.left-col{
+    float: left;
+
+}
+.left-col img{
+    height: 70px;
+    width: 290px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.topnav{
+    float: right;
+    margin: auto;
+    overflow: hidden;
+   
+}
+.topnav a{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(9, 9, 9);
+    text-decoration:none ;
+    padding:5px;
+    text-align: end;
+}
+
+.topnav a:hover{
+    color: red;
+}
+.topnav a.active{
+    color: red;
+}
+
+
+   
+    
