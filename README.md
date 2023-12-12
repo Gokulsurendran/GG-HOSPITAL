@@ -8,14 +8,23 @@ Contents Included
 The page has the following contents included:
 
 Navigation Bar
+
 Book Appointment
+
 Doctors Listed
+
 Departments Listed
+
 Why GG is better section
+
 Facilities and Activities
+
 You May Be Interested In section
+
 Footer
+
 Newsletter
+
 
 ![Screenshot (15)](https://github.com/Gokulsurendran/GG-HOSPITAL/assets/69446380/b12f7718-97f2-49ab-9053-2fbf61ac6b15)
 ![Screenshot (17)](https://github.com/Gokulsurendran/GG-HOSPITAL/assets/69446380/9cabb852-770c-475b-bfde-d28ad5dd60c1)
